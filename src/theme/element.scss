@@ -1,0 +1,43 @@
+/* 改变主题色变量 */
+$--color-primary: #1BBC3D;
+$--color-yellow: #e6bf7a;
+$--color-blue: #2a75ed;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+
+.el-table--small{
+  font-size: 14px;
+}
+
+.el-table th {
+  background: #f5f7fa;
+}
+
+.el-tabs--border-card {
+  border: none;
+  & > .el-tabs__header {
+    border: none;
+    .el-tabs__item.is-active {
+      border: none;
+    }
+  }
+}
+
+// 自定义菜单主题
+.el-submenu .el-menu-item{
+  background: #26292d !important;
+  color: #818996 !important;
+  padding: 0 32px !important;
+}
+.el-menu-item.is-active{
+  color: $--color-primary !important;
+}
+.msg-popu-error{
+  background:#fff!important;
+  border: none!important;
+  color:#F7B393!important;
+  font-size:24px!important;
+}
+

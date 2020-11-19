@@ -1,0 +1,29 @@
+/* 改变主题色变量 */
+$--color-primary: #1BBC3D;
+// $--color-primary: #e6bf7a;
+// $--color-primary: #eb4c28;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+@import '~element-ui/packages/theme-chalk/src/index';
+
+// .el-button--primary {
+//     color: #FFFFFF;
+//     background-color: #1BBC3D;
+//     border-color: #1BBC3D;
+// }
+// .el-button--primary:hover {
+//     color: #FFFFFF;
+//     background-color: #1BBC3D;
+//     border-color: #1BBC3D;
+// }
+// .el-button--primary:active {
+//     color: #FFFFFF;
+//     background-color: #1BBC3D;
+//     border-color: #1BBC3D;
+// }
+// .el-button--primary:focus{
+//     color: #FFFFFF;
+//     background-color: #1BBC3D;
+//     border-color: #1BBC3D;
+// }

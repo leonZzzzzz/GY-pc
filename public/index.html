@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>bitbug_favicon.ico">
+  <script charset="utf-8" src="https://map.qq.com/api/js?v=2.exp&key=XKEBZ-RCV6X-2N44A-TRWGS-AY2R7-FNF6B"></script>
+  <title>丰盈e鲜管理平台</title>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but hths doesn't work properly without JavaScript enabled. Please enable it to
+      continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!--built files will be auto injected-->
+  <script src="./ueditor/ueditor.config.js"></script>
+  <script src="./ueditor/ueditor.config.js"></script>
+  <script src="./ueditor/ueditor.all.js"></script>
+  <script>
+    var userAgent = navigator.userAgent
+    if (userAgent.indexOf("Trident") > -1) {
+      var app = document.getElementById("app")
+      var div = document.createElement("div")
+      div.className = 'agent-tip'
+      div.innerHTML = "为了更好的体验，请使用谷歌/火狐/QQ/360等浏览器。并且将浏览器模式设置成极速模式！"
+      app.appendChild(div)
+    }
+  </script>
+</body>
+
+</html>
